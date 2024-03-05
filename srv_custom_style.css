@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Etelka Text Pro Bold';
+    src: url(./EtelkaTextProBold.otf);
+}
+
+@font-face {
+    font-family: 'Etelka Text Pro';
+    src: url(./EtelkaTextPro.otf);
+}
+
+body {
+    font-family: 'Etelka Text Pro', Arial;
+}
+
+h1,
+.nav,
+.gn-results-editor a {
+    font-family: 'Etelka Text Pro Bold', Arial;
+}
+
+.gn-row-main {
+    padding: 2em 0;
+}
+
+.search-over {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.nav {
+    font-size: 16px;
+}
+
+.clamp-2 {
+    word-break: break-word;
+}
+
+.gn-card .gn-card-heading .gn-md-title,
+.gn-card .gn-card-heading .gn-md-title a,
+.gn-card .gn-card-heading .gn-md-title a:hover,
+.search-over,
+.search-over strong {
+    color: white;
+}
+
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>li>a:hover,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.open>a:hover,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a:hover,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>li>a:focus,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.open>a:focus,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a:focus {
+    color: #0050A4;
+    background-color: white;
+}
+
+a {
+    color:#0050A4;
+}
+
+.navbar-default .navbar-nav>li>a:hover .gn-user-role, 
+.navbar-default .navbar-nav>li>a:focus .gn-user-role,
+a:hover,
+a:focus{
+    color:#003771;
+}
+
+.btn-primary,
+.panel-default,
+.gn-topic .panel,
+.gn-topic .panel:hover,
+.gn-topic .panel .panel-footer {
+    border-color: #002B58;
+}
+
+.gn-card .gn-card-heading {
+    border-color: #002B58 !important;
+}
+
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>li>a,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.open>a,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a {
+    color:white;
+}
+
+.btn-primary,
+.gn-topic .panel,
+.nav-pills>li.active>a,
+.gn-row-topics .gn-topic-select input:checked+span,
+[ng-app="gn_admin"] .gn-top-bar .navbar-collapse,
+[ng-app="gn_admin"] .gn-top-bar {
+    background-color: #0050A4;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.gn-topic .panel:hover,
+.gn-topic .panel .panel-footer,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus,
+.gn-row-topics .gn-topic-select input:checked+span:hover,
+.gn-row-topics .gn-topic-select input:checked+span:focus {
+    background-color: #003771;
+}
+
