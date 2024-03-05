@@ -102,3 +102,6 @@ a:focus{
     background-color: #003771;
 }
 
+.gallery {
+    display: none;
+}
