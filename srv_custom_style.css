@@ -48,7 +48,8 @@ h1,
 [ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a:hover,
 [ng-app="gn_admin"] .gn-top-bar .navbar-nav>li>a:focus,
 [ng-app="gn_admin"] .gn-top-bar .navbar-nav>.open>a:focus,
-[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a:focus {
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a:focus {
     color: #0050A4;
     background-color: white;
 }
