@@ -39,7 +39,8 @@ h1,
 .gn-card .gn-card-heading .gn-md-title a,
 .gn-card .gn-card-heading .gn-md-title a:hover,
 .search-over,
-.search-over strong {
+.search-over strong,
+.navbar-default .gn-user-info .gn-user-role {
     color: white;
 }
 
