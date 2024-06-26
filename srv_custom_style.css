@@ -87,8 +87,9 @@ a:focus{
 .nav-pills>li.active>a,
 .gn-row-topics .gn-topic-select input:checked+span,
 [ng-app="gn_admin"] .gn-top-bar .navbar-collapse,
-[ng-app="gn_admin"] .gn-top-bar {
-    background-color: #0050A4;
+[ng-app="gn_admin"] .gn-top-bar,
+.gn-card .gn-card-heading {
+    background-color: #0050A4 !important;
 }
 
 .btn-primary:hover,
