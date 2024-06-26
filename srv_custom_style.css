@@ -78,7 +78,7 @@ a:focus{
 
 [ng-app="gn_admin"] .gn-top-bar .navbar-nav>li>a,
 [ng-app="gn_admin"] .gn-top-bar .navbar-nav>.open>a,
-[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a,
 .navbar-default .navbar-nav > li > a, 
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .active > a{
@@ -103,7 +103,7 @@ a:focus{
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus,
 .gn-row-topics .gn-topic-select input:checked+span:hover,
-.gn-row-topics .gn-topic-select input:checked+span:focus
+.gn-row-topics .gn-topic-select input:checked+span:focus,
 .navbar-default .navbar-nav > .active > a {
     background-color: #003771;
     color: white;
